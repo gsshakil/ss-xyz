@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Helps YouTube embeds avoid Error 153 (referrer / player identity) -->
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="description"
+        content="Launch your own Shopify-like AI SaaS: POS, online store, and multi-tenant platform. Join the waitlist for CodeCanyon launch pricing.">
+    <title>ShopSuite — Launch Your AI SaaS POS & Online Store Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Syne:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['Syne', 'system-ui', 'sans-serif'],
+                        sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+                    },
+                    colors: {
+                        ink: '#050810',
+                        surface: '#0c1222',
+                        line: 'rgba(148, 163, 184, 0.12)',
+                        mint: '#34d399',
+                        mintdim: '#10b981',
+                        coral: '#fb7185',
+                        frost: '#e2e8f0',
+                    },
+                    backgroundImage: {
+                        'grid-fade': 'linear-gradient(to bottom, transparent, #050810), linear-gradient(90deg, rgba(148,163,184,0.06) 1px, transparent 1px), linear-gradient(rgba(148,163,184,0.06) 1px, transparent 1px)',
+                        'glow-radial': 'radial-gradient(ellipse 80% 50% at 50% -20%, rgba(52, 211, 153, 0.22), transparent), radial-gradient(ellipse 60% 40% at 100% 0%, rgba(251, 113, 133, 0.12), transparent)',
+                    },
+                    animation: {
+                        'float-slow': 'float 8s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-6px)' },
+                        },
+                    },
+                },
+            },
+        };
+    </script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/69c86df359d6ae1c39c3566b/1jkreqvsg';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <style type="text/tailwindcss">
+        @layer base {
+      html {
+        font-size: 100%;
+      }
+    }
+    @layer utilities {
+      .text-balance { text-wrap: balance; }
+      .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body class="font-sans bg-ink text-frost antialiased selection:bg-mint/30 selection:text-white">
+
+    <!-- ambient -->
+    <div class="pointer-events-none fixed inset-0 -z-10 bg-glow-radial" aria-hidden="true"></div>
+    <div class="pointer-events-none fixed inset-0 -z-10 bg-[length:48px_48px] bg-grid-fade bg-[position:center_top]"
+        aria-hidden="true"></div>
+
+    <header class="sticky top-0 z-50 border-b border-line bg-ink/80 backdrop-blur-md">
+        <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
+            <a href="#" class="font-display text-lg font-bold tracking-tight text-white">ShopSuite</a>
+            <nav class="hidden items-center gap-8 text-sm font-medium text-slate-400 sm:flex">
+                <a href="#opportunity" class="transition hover:text-white">Opportunity</a>
+                <a href="#platform" class="transition hover:text-white">Platform</a>
+                <a href="#preview" class="transition hover:text-white">Screenshots &amp; video</a>
+                <a href="#stores" class="transition hover:text-white">Store types</a>
+                <a href="#waitlist" class="transition hover:text-white">Waitlist</a>
+            </nav>
+            <a href="#waitlist"
+                class="rounded-full bg-mint px-4 py-2 text-sm font-bold text-ink shadow-lg shadow-mint/20 transition hover:bg-emerald-300 focus:outline-none focus:ring-2 focus:ring-mint focus:ring-offset-2 focus:ring-offset-ink">
+                Join waitlist
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="relative overflow-hidden px-4 pb-20 pt-16 sm:px-6 sm:pb-28 sm:pt-24 lg:px-8">
+            <div class="mx-auto max-w-4xl text-center">
+                <p
+                    class="mb-6 inline-flex items-center gap-2 rounded-full border border-line bg-surface/80 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-mint">
+                    <span class="h-1.5 w-1.5 animate-pulse rounded-full bg-mint"></span>
+                    CodeCanyon launch · Early access
+                </p>
+                <h1
+                    class="font-display text-balance text-4xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-6xl">
+                    Launch your own
+                    <span class="bg-gradient-to-r from-mint via-emerald-200 to-coral bg-clip-text text-transparent">
+                        Shopify-like AI SaaS</span>
+                    — POS, online store &amp; more
+                </h1>
+                <div class="mx-auto mt-8 max-w-xl">
+                    <div class="overflow-hidden">
+                        <img src="featured.png" alt="ShopSuite product dashboard preview" width="1920" height="1080"
+                            class="h-auto w-full object-cover object-top" loading="eager" decoding="async"
+                            fetchpriority="high">
+                    </div>
+                </div>
+                <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-400">
+                    A multi-tenant script entrepreneurs can white-label and sell to local retailers, e-commerce brands,
+                    and social sellers. Build recurring revenue while they run smarter on one platform.
+                </p>
+                <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+                    <a href="#waitlist"
+                        class="inline-flex w-full items-center justify-center rounded-xl bg-mint px-8 py-4 text-base font-bold text-ink shadow-xl shadow-mint/25 transition hover:bg-emerald-300 focus:outline-none focus:ring-2 focus:ring-mint focus:ring-offset-2 focus:ring-offset-ink sm:w-auto">
+                        Join the waitlist
+                    </a>
+                    <a href="#stores"
+                        class="inline-flex w-full items-center justify-center rounded-xl border border-line bg-surface/60 px-8 py-4 text-base font-semibold text-white backdrop-blur transition hover:border-slate-600 hover:bg-surface focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2 focus:ring-offset-ink sm:w-auto">
+                        See who you can serve
+                    </a>
+                </div>
+                <p class="mt-6 text-sm text-slate-500">
+                    Early list: launch-day pricing · bonus go-to-market guide · no spam
+                </p>
+            </div>
+
+            <!-- floating stat cards -->
+            <div class="mx-auto mt-16 grid max-w-5xl gap-4 sm:grid-cols-3">
+                <div class="animate-float-slow rounded-2xl border border-line bg-surface/70 p-5 backdrop-blur-sm">
+                    <p class="font-display text-2xl font-bold text-white">POS + Web</p>
+                    <p class="mt-1 text-sm text-slate-400">In-store checkout meets branded online storefronts.</p>
+                </div>
+                <div
+                    class="animate-float-slow rounded-2xl border border-line bg-surface/70 p-5 backdrop-blur-sm [animation-delay:1s]">
+                    <p class="font-display text-2xl font-bold text-white">Multi-tenant</p>
+                    <p class="mt-1 text-sm text-slate-400">One install, many merchant accounts — your SaaS.</p>
+                </div>
+                <div
+                    class="animate-float-slow rounded-2xl border border-line bg-surface/70 p-5 backdrop-blur-sm [animation-delay:2s]">
+                    <p class="font-display text-2xl font-bold text-white">AI-ready</p>
+                    <p class="mt-1 text-sm text-slate-400">Position for automation, content, and ops assistance.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social proof strip -->
+        <section class="border-y border-line bg-surface/40 py-4">
+            <div
+                class="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-10 gap-y-2 px-4 text-center text-xs font-semibold uppercase tracking-wider text-slate-500 sm:text-sm">
+                <span>For social ad traffic</span>
+                <span class="hidden h-4 w-px bg-line sm:block" aria-hidden="true"></span>
+                <span>Entrepreneurs &amp; agencies</span>
+                <span class="hidden h-4 w-px bg-line sm:block" aria-hidden="true"></span>
+                <span>CodeCanyon buyers</span>
+            </div>
+        </section>
+
+        <!-- Opportunity -->
+        <section id="opportunity" class="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
+            <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+                <div>
+                    <h2 class="font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                        Millions of merchants are still piecing tools together
+                    </h2>
+                    <p class="mt-4 text-lg text-slate-400">
+                        Spreadsheets, DMs, and a Facebook page are not a stack. You can sell a real POS, inventory, CRM,
+                        and online store — packaged as your SaaS.
+                    </p>
+                    <ul class="mt-8 space-y-4">
+                        <li class="flex gap-3">
+                            <span
+                                class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-rose-500/15 text-sm text-coral">✕</span>
+                            <span class="text-slate-300">No unified POS or stock across channels</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span
+                                class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-rose-500/15 text-sm text-coral">✕</span>
+                            <span class="text-slate-300">No professional storefront or checkout</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span
+                                class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-rose-500/15 text-sm text-coral">✕</span>
+                            <span class="text-slate-300">No automation, weak reporting, slow growth</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rounded-3xl border border-line bg-gradient-to-br from-surface to-ink p-8 shadow-2xl">
+                    <p class="font-display text-sm font-bold uppercase tracking-widest text-mint">Your offer</p>
+                    <p class="mt-4 text-xl font-semibold text-white">“Everything in one place — you focus on sales; we
+                        run the system.”</p>
+                    <p class="mt-4 text-slate-400">
+                        That message lands with brick-and-mortar, online-first brands, and creators selling on social —
+                        because they all feel the same pain.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Platform -->
+        <section id="platform" class="border-t border-line bg-surface/30 py-20">
+            <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+                <div class="mx-auto max-w-2xl text-center">
+                    <h2 class="font-display text-3xl font-bold text-white sm:text-4xl">What your buyers get (and what
+                        you sell)</h2>
+                    <p class="mt-4 text-slate-400">Position it like a modern commerce platform — not a single plugin.
+                    </p>
+                </div>
+                <div class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                    <article
+                        class="group rounded-2xl border border-line bg-ink/50 p-6 transition hover:border-mint/40 hover:shadow-lg hover:shadow-mint/5">
+                        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-mint/10 text-xl">◎</div>
+                        <h3 class="mt-4 font-display text-lg font-bold text-white">POS &amp; billing</h3>
+                        <p class="mt-2 text-sm leading-relaxed text-slate-400">Fast checkout, receipts, and day-to-day
+                            register workflows.</p>
+                    </article>
+                    <article
+                        class="group rounded-2xl border border-line bg-ink/50 p-6 transition hover:border-mint/40 hover:shadow-lg hover:shadow-mint/5">
+                        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-mint/10 text-xl">▦</div>
+                        <h3 class="mt-4 font-display text-lg font-bold text-white">Inventory</h3>
+                        <p class="mt-2 text-sm leading-relaxed text-slate-400">SKUs, variants, stock levels — online and
+                            in-store aligned.</p>
+                    </article>
+                    <article
+                        class="group rounded-2xl border border-line bg-ink/50 p-6 transition hover:border-mint/40 hover:shadow-lg hover:shadow-mint/5">
+                        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-mint/10 text-xl">◇</div>
+                        <h3 class="mt-4 font-display text-lg font-bold text-white">Online store</h3>
+                        <p class="mt-2 text-sm leading-relaxed text-slate-400">Merchant storefronts that feel like a
+                            serious e-commerce brand.</p>
+                    </article>
+                    <article
+                        class="group rounded-2xl border border-line bg-ink/50 p-6 transition hover:border-mint/40 hover:shadow-lg hover:shadow-mint/5">
+                        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-mint/10 text-xl">✦</div>
+                        <h3 class="mt-4 font-display text-lg font-bold text-white">CRM &amp; reports</h3>
+                        <p class="mt-2 text-sm leading-relaxed text-slate-400">Customers, orders, and insight to justify
+                            your monthly fee.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product screenshots + YouTube -->
+        <section id="preview" class="scroll-mt-24 border-t border-line py-20">
+            <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+                <div class="mx-auto max-w-3xl text-center">
+                    <h2 class="font-display text-3xl font-bold text-white sm:text-4xl">See the product in action</h2>
+                    <p class="mt-4 text-lg text-slate-400">
+                        Swap the placeholder images and video ID for your real CodeCanyon preview assets — same layout,
+                        your pixels.
+                    </p>
+                </div>
+
+                <!-- Video: click-through to YouTube (avoids iframe Error 153 on many hosts / networks) -->
+                <div class="mx-auto mt-14 max-w-2xl">
+                    <h3 class="font-display text-center text-lg font-semibold text-white">Product walkthrough</h3>
+                    <p class="mx-auto mt-2 max-w-xl text-center text-sm text-slate-500">
+                        Inline YouTube embeds often show <strong class="text-slate-400">Error 153</strong> when a host
+                        or
+                        extension strips referrer data. The card below opens the demo on <strong
+                            class="text-slate-400">YouTube</strong> in a new tab — reliable everywhere.
+                    </p>
+                    <div
+                        class="relative mt-6 overflow-hidden rounded-2xl border border-line bg-black shadow-2xl shadow-black/50 ring-1 ring-white/5">
+                        <a href="https://www.youtube.com/watch?v=wwIt5ZvROrs" target="_blank" rel="noopener noreferrer"
+                            class="group relative block aspect-video w-full focus:outline-none focus-visible:ring-2 focus-visible:ring-mint focus-visible:ring-offset-2 focus-visible:ring-offset-ink"
+                            aria-label="Watch ShopSuite product walkthrough on YouTube (opens in new tab)">
+                            <img src="https://i.ytimg.com/vi/wwIt5ZvROrs/maxresdefault.jpg" alt="" width="1280"
+                                height="720" loading="lazy" decoding="async"
+                                class="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+                                onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/wwIt5ZvROrs/hqdefault.jpg'">
+                            <span class="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/20 to-transparent"
+                                aria-hidden="true"></span>
+                            <span
+                                class="absolute left-1/2 top-1/2 flex h-16 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-red-600 shadow-xl shadow-black/40 ring-4 ring-white/10 transition group-hover:scale-105 group-hover:bg-red-500"
+                                aria-hidden="true">
+                                <svg class="ml-1 h-8 w-8 text-white" viewBox="0 0 24 24" fill="currentColor"
+                                    aria-hidden="true">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </span>
+                            <span
+                                class="absolute bottom-0 left-0 right-0 px-4 pb-4 pt-12 text-center font-display text-sm font-semibold text-white sm:text-base">
+                                Watch demo — opens YouTube
+                            </span>
+                        </a>
+                    </div>
+                    <p class="mt-3 text-center text-xs text-slate-600">
+                        Prefer an inline player? Your server must send <code
+                            class="font-mono text-slate-500">Referrer-Policy: strict-origin-when-cross-origin</code>
+                        (not
+                        <code class="font-mono text-slate-500">same-origin</code>) — e.g. fix Cloudflare transform
+                        rules.
+                        Direct link:
+                        <a href="https://www.youtube.com/watch?v=wwIt5ZvROrs" target="_blank" rel="noopener noreferrer"
+                            class="font-medium text-mint underline-offset-2 hover:underline">youtube.com/…</a>
+                    </p>
+                </div>
+
+                <!-- Screenshots: horizontal scroll + prev/next -->
+                <div class="mt-20">
+                    <h3 class="font-display text-center text-lg font-semibold text-white">Screenshots</h3>
+                    <p class="mx-auto mt-2 max-w-2xl text-center text-sm text-slate-500">
+                        Replace each <code
+                            class="rounded bg-surface px-1 py-0.5 font-mono text-[0.65rem] text-slate-400">src</code>
+                        with paths to your exports (e.g. <code
+                            class="rounded bg-surface px-1 py-0.5 font-mono text-[0.65rem] text-mint">assets/screenshots/pos.png</code>).
+                        Use the arrows to scroll.
+                    </p>
+                    <div class="relative left-1/2 mt-10 w-screen max-w-[100vw] -translate-x-1/2 overflow-x-clip">
+                        <div class="relative mx-auto w-[90%]" role="region" aria-label="Product screenshots carousel">
+                            <button type="button" id="screenshots-scroll-prev"
+                                class="absolute left-0 top-1/2 z-20 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-line bg-surface/95 text-white shadow-lg backdrop-blur transition hover:border-mint/40 hover:bg-surface hover:text-mint focus:outline-none focus:ring-2 focus:ring-mint focus:ring-offset-2 focus:ring-offset-ink sm:left-1 sm:h-12 sm:w-12"
+                                aria-controls="screenshots-scroller" aria-label="Previous screenshots">
+                                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 18l-6-6 6-6" />
+                                </svg>
+                            </button>
+                            <button type="button" id="screenshots-scroll-next"
+                                class="absolute right-0 top-1/2 z-20 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-line bg-surface/95 text-white shadow-lg backdrop-blur transition hover:border-mint/40 hover:bg-surface hover:text-mint focus:outline-none focus:ring-2 focus:ring-mint focus:ring-offset-2 focus:ring-offset-ink sm:right-1 sm:h-12 sm:w-12"
+                                aria-controls="screenshots-scroller" aria-label="Next screenshots">
+                                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 18l6-6-6-6" />
+                                </svg>
+                            </button>
+                            <div class="pointer-events-none absolute inset-y-0 left-0 z-10 w-14 bg-gradient-to-r from-[#050810] to-transparent sm:w-24"
+                                aria-hidden="true"></div>
+                            <div class="pointer-events-none absolute inset-y-0 right-0 z-10 w-14 bg-gradient-to-l from-[#050810] to-transparent sm:w-24"
+                                aria-hidden="true"></div>
+                            <div class="overflow-hidden py-1 pl-12 pr-12 sm:pl-14 sm:pr-14">
+                                <div id="screenshots-scroller"
+                                    class="scrollbar-hide flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth pb-2 [-webkit-overflow-scrolling:touch]">
+                                    <a href="https://placehold.co/1600x1000/0c1222/34d399/png?text=Admin+dashboard"
+                                        target="_blank" rel="noopener noreferrer"
+                                        class="group flex w-[min(78vw,22rem)] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-line bg-surface/40 shadow-lg transition hover:border-mint/30 hover:shadow-mint/10 sm:w-96">
+                                        <div class="aspect-[16/10] overflow-hidden bg-ink">
+                                            <img src="https://placehold.co/1600x1000/0c1222/34d399/png?text=Admin+dashboard"
+                                                width="1600" height="1000"
+                                                alt="Admin dashboard screenshot placeholder — replace with your image"
+                                                class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+                                                loading="lazy" decoding="async">
+                                        </div>
+                                        <p class="border-t border-line px-4 py-3 text-sm font-medium text-slate-300">
+                                            Admin
+                                            &amp; tenant overview</p>
+                                    </a>
+                                    <a href="https://placehold.co/1600x1000/0c1222/34d399/png?text=POS+%2F+checkout"
+                                        target="_blank" rel="noopener noreferrer"
+                                        class="group flex w-[min(78vw,22rem)] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-line bg-surface/40 shadow-lg transition hover:border-mint/30 hover:shadow-mint/10 sm:w-96">
+                                        <div class="aspect-[16/10] overflow-hidden bg-ink">
+                                            <img src="https://placehold.co/1600x1000/0c1222/34d399/png?text=POS+%2F+checkout"
+                                                width="1600" height="1000"
+                                                alt="POS checkout screenshot placeholder — replace with your image"
+                                                class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+                                                loading="lazy" decoding="async">
+                                        </div>
+                                        <p class="border-t border-line px-4 py-3 text-sm font-medium text-slate-300">POS
+                                            &amp; checkout</p>
+                                    </a>
+                                    <a href="https://placehold.co/1600x1000/0c1222/34d399/png?text=Online+storefront"
+                                        target="_blank" rel="noopener noreferrer"
+                                        class="group flex w-[min(78vw,22rem)] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-line bg-surface/40 shadow-lg transition hover:border-mint/30 hover:shadow-mint/10 sm:w-96">
+                                        <div class="aspect-[16/10] overflow-hidden bg-ink">
+                                            <img src="https://placehold.co/1600x1000/0c1222/34d399/png?text=Online+storefront"
+                                                width="1600" height="1000"
+                                                alt="Online storefront screenshot placeholder — replace with your image"
+                                                class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+                                                loading="lazy" decoding="async">
+                                        </div>
+                                        <p class="border-t border-line px-4 py-3 text-sm font-medium text-slate-300">
+                                            Merchant
+                                            online store</p>
+                                    </a>
+                                    <a href="https://placehold.co/1600x1000/0c1222/34d399/png?text=Inventory"
+                                        target="_blank" rel="noopener noreferrer"
+                                        class="group flex w-[min(78vw,22rem)] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-line bg-surface/40 shadow-lg transition hover:border-mint/30 hover:shadow-mint/10 sm:w-96">
+                                        <div class="aspect-[16/10] overflow-hidden bg-ink">
+                                            <img src="https://placehold.co/1600x1000/0c1222/34d399/png?text=Inventory"
+                                                width="1600" height="1000"
+                                                alt="Inventory management screenshot placeholder — replace with your image"
+                                                class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+                                                loading="lazy" decoding="async">
+                                        </div>
+                                        <p class="border-t border-line px-4 py-3 text-sm font-medium text-slate-300">
+                                            Inventory
+                                            &amp; catalog</p>
+                                    </a>
+                                    <a href="https://placehold.co/1600x1000/0c1222/34d399/png?text=CRM+%2F+customers"
+                                        target="_blank" rel="noopener noreferrer"
+                                        class="group flex w-[min(78vw,22rem)] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-line bg-surface/40 shadow-lg transition hover:border-mint/30 hover:shadow-mint/10 sm:w-96">
+                                        <div class="aspect-[16/10] overflow-hidden bg-ink">
+                                            <img src="https://placehold.co/1600x1000/0c1222/34d399/png?text=CRM+%2F+customers"
+                                                width="1600" height="1000"
+                                                alt="CRM customers screenshot placeholder — replace with your image"
+                                                class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+                                                loading="lazy" decoding="async">
+                                        </div>
+                                        <p class="border-t border-line px-4 py-3 text-sm font-medium text-slate-300">CRM
+                                            &amp; customers</p>
+                                    </a>
+                                    <a href="https://placehold.co/1600x1000/0c1222/34d399/png?text=Reports+%2F+analytics"
+                                        target="_blank" rel="noopener noreferrer"
+                                        class="group flex w-[min(78vw,22rem)] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-line bg-surface/40 shadow-lg transition hover:border-mint/30 hover:shadow-mint/10 sm:w-96">
+                                        <div class="aspect-[16/10] overflow-hidden bg-ink">
+                                            <img src="https://placehold.co/1600x1000/0c1222/34d399/png?text=Reports+%2F+analytics"
+                                                width="1600" height="1000"
+                                                alt="Reports and analytics screenshot placeholder — replace with your image"
+                                                class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+                                                loading="lazy" decoding="async">
+                                        </div>
+                                        <p class="border-t border-line px-4 py-3 text-sm font-medium text-slate-300">
+                                            Reports
+                                            &amp; analytics</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        (function () {
+                            var scroller = document.getElementById('screenshots-scroller');
+                            var prev = document.getElementById('screenshots-scroll-prev');
+                            var next = document.getElementById('screenshots-scroll-next');
+                            if (!scroller || !prev || !next) return;
+                            function scrollStep() {
+                                var card = scroller.querySelector('a');
+                                if (!card) return Math.min(scroller.clientWidth * 0.9, 400);
+                                var st = getComputedStyle(scroller);
+                                var gap = parseFloat(st.gap || st.columnGap) || 20;
+                                return card.getBoundingClientRect().width + gap;
+                            }
+                            function updateButtons() {
+                                var maxScroll = Math.max(0, scroller.scrollWidth - scroller.clientWidth);
+                                var atStart = scroller.scrollLeft <= 2;
+                                var atEnd = scroller.scrollLeft >= maxScroll - 2;
+                                prev.disabled = atStart;
+                                next.disabled = atEnd;
+                                prev.classList.toggle('opacity-40', atStart);
+                                next.classList.toggle('opacity-40', atEnd);
+                                prev.classList.toggle('cursor-not-allowed', atStart);
+                                next.classList.toggle('cursor-not-allowed', atEnd);
+                                prev.setAttribute('aria-disabled', atStart ? 'true' : 'false');
+                                next.setAttribute('aria-disabled', atEnd ? 'true' : 'false');
+                            }
+                            prev.addEventListener('click', function () {
+                                scroller.scrollBy({ left: -scrollStep(), behavior: 'smooth' });
+                            });
+                            next.addEventListener('click', function () {
+                                scroller.scrollBy({ left: scrollStep(), behavior: 'smooth' });
+                            });
+                            scroller.addEventListener('scroll', updateButtons, { passive: true });
+                            window.addEventListener('resize', updateButtons);
+                            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                                scroller.classList.remove('scroll-smooth');
+                            }
+                            updateButtons();
+                        })();
+                    </script>
+                </div>
+
+                <p class="mx-auto mt-12 max-w-xl text-center text-sm text-slate-500">
+                    <a href="#waitlist" class="font-semibold text-mint underline-offset-2 hover:underline">Join the
+                        waitlist</a>
+                    to get notified when the full preview pack and launch pricing drop.
+                </p>
+            </div>
+        </section>
+
+        <!-- Store types — requested section -->
+        <section id="stores" class="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-3xl text-center">
+                <h2 class="font-display text-3xl font-bold text-white sm:text-4xl">Store types &amp; sellers you can
+                    support</h2>
+                <p class="mt-4 text-lg text-slate-400">
+                    Use this in ads and sales calls: one platform narrative that covers e-commerce, social selling,
+                    rising online brands, detailed retail verticals, food service, and salons.
+                </p>
+            </div>
+
+            <div class="mt-14 space-y-10">
+                <!-- Row 1 -->
+                <div class="grid gap-6 lg:grid-cols-2">
+                    <div class="rounded-3xl border border-line bg-gradient-to-br from-emerald-950/40 to-surface/80 p-8">
+                        <h3 class="font-display text-xl font-bold text-mint">E-commerce &amp; DTC</h3>
+                        <p class="mt-2 text-slate-400">Brands that sell primarily online and need catalog, checkout, and
+                            ops in one system.</p>
+                        <ul class="mt-6 space-y-2 text-slate-300">
+                            <li class="flex gap-2"><span class="text-mint">→</span> Pure e-commerce &amp; hybrid retail
+                            </li>
+                            <li class="flex gap-2"><span class="text-mint">→</span> Rising merchants building serious
+                                e-commerce (scaling beyond DMs &amp; spreadsheets)</li>
+                        </ul>
+                    </div>
+                    <div class="rounded-3xl border border-line bg-gradient-to-br from-rose-950/30 to-surface/80 p-8">
+                        <h3 class="font-display text-xl font-bold text-coral">Social &amp; creator commerce</h3>
+                        <p class="mt-2 text-slate-400">Sellers who grew an audience first — now they need inventory,
+                            orders, and a real store.</p>
+                        <ul class="mt-6 space-y-2 text-slate-300">
+                            <li class="flex gap-2"><span class="text-coral">→</span> Facebook Shops &amp; social
+                                storefronts</li>
+                            <li class="flex gap-2"><span class="text-coral">→</span> Instagram Shopping &amp;
+                                link-in-bio buyers</li>
+                            <li class="flex gap-2"><span class="text-coral">→</span> TikTok Shop &amp; short-video
+                                sellers</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Retail grid -->
+                <div>
+                    <h3 class="font-display text-center text-lg font-bold text-white">Brick-and-mortar &amp; detailed
+                        retail</h3>
+                    <p class="mx-auto mt-2 max-w-2xl text-center text-sm text-slate-500">Grocery to gadgets — niche
+                        specialists welcome.</p>
+                    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                        <div class="flex items-start gap-3 rounded-2xl border border-line bg-surface/60 p-5">
+                            <span class="text-xl" aria-hidden="true">🛒</span>
+                            <div>
+                                <p class="font-semibold text-white">Grocery &amp; markets</p>
+                                <p class="text-sm text-slate-400">Perishables, packs, and high-SKU counters.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 rounded-2xl border border-line bg-surface/60 p-5">
+                            <span class="text-xl" aria-hidden="true">📚</span>
+                            <div>
+                                <p class="font-semibold text-white">Bookstores</p>
+                                <p class="text-sm text-slate-400">ISBNs, pre-orders, and curated collections.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 rounded-2xl border border-line bg-surface/60 p-5">
+                            <span class="text-xl" aria-hidden="true">🔧</span>
+                            <div>
+                                <p class="font-semibold text-white">Hardware stores</p>
+                                <p class="text-sm text-slate-400">Tools, parts, bundles, and contractor accounts.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 rounded-2xl border border-line bg-surface/60 p-5">
+                            <span class="text-xl" aria-hidden="true">💻</span>
+                            <div>
+                                <p class="font-semibold text-white">Electronics</p>
+                                <p class="text-sm text-slate-400">Serials, warranties, accessories, trade-ins.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 rounded-2xl border border-line bg-surface/60 p-5">
+                            <span class="text-xl" aria-hidden="true">👕</span>
+                            <div>
+                                <p class="font-semibold text-white">Clothing &amp; fashion</p>
+                                <p class="text-sm text-slate-400">Sizes, colors, seasons, lookbooks online.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 rounded-2xl border border-line bg-surface/60 p-5">
+                            <span class="text-xl" aria-hidden="true">🏪</span>
+                            <div>
+                                <p class="font-semibold text-white">Specialty &amp; detailed shops</p>
+                                <p class="text-sm text-slate-400">Hobby, gift, pet, sports, beauty retail — any
+                                    catalog-heavy niche.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food & salon -->
+                <div class="grid gap-6 lg:grid-cols-2">
+                    <div class="rounded-3xl border border-amber-500/20 bg-amber-950/20 p-8">
+                        <h3 class="font-display text-xl font-bold text-amber-200">Restaurants &amp; food service</h3>
+                        <p class="mt-2 text-slate-400">Cafés, quick service, and table-service workflows — tabs,
+                            modifiers, and kitchen-friendly flows as you extend the product.</p>
+                    </div>
+                    <div class="rounded-3xl border border-fuchsia-500/20 bg-fuchsia-950/20 p-8">
+                        <h3 class="font-display text-xl font-bold text-fuchsia-200">Salons, barbershops &amp; spas</h3>
+                        <p class="mt-2 text-slate-400">Appointments, retail add-ons, memberships — perfect upsell for
+                            service businesses that also move products.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Revenue -->
+        <section class="border-t border-line bg-surface/30 py-20">
+            <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+                <div class="mx-auto max-w-2xl text-center">
+                    <h2 class="font-display text-3xl font-bold text-white sm:text-4xl">Simple math your ads can use</h2>
+                    <p class="mt-4 text-slate-400">Illustrative MRR — adjust for your market and packaging.</p>
+                </div>
+                <div class="mt-12 grid gap-6 md:grid-cols-3">
+                    <div class="rounded-2xl border border-line bg-ink/80 p-8 text-center">
+                        <p class="font-display text-3xl font-extrabold text-mint">$250<span
+                                class="text-lg font-semibold text-slate-500">/mo</span></p>
+                        <p class="mt-2 text-sm text-slate-400">50 shops × $5/mo</p>
+                    </div>
+                    <div class="rounded-2xl border border-mint/30 bg-mint/5 p-8 text-center ring-1 ring-mint/20">
+                        <p class="font-display text-3xl font-extrabold text-white">$1,000<span
+                                class="text-lg font-semibold text-slate-500">/mo</span></p>
+                        <p class="mt-2 text-sm text-slate-400">100 shops × $10/mo</p>
+                    </div>
+                    <div class="rounded-2xl border border-line bg-ink/80 p-8 text-center">
+                        <p class="font-display text-3xl font-extrabold text-mint">500+</p>
+                        <p class="mt-2 text-sm text-slate-400">Clients as you expand tiers &amp; geography</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What you get -->
+        <section class="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
+            <div class="grid gap-12 lg:grid-cols-2 lg:items-start">
+                <div>
+                    <h2 class="font-display text-3xl font-bold text-white sm:text-4xl">What you get as a buyer</h2>
+                    <p class="mt-4 text-slate-400">Ship a credible SaaS story on day one — then grow into AI features,
+                        more verticals, and new markets.</p>
+                    <ul class="mt-8 grid gap-3 sm:grid-cols-2">
+                        <li
+                            class="rounded-xl border border-line bg-surface/50 px-4 py-3 text-sm font-medium text-slate-200">
+                            Full multi-tenant system</li>
+                        <li
+                            class="rounded-xl border border-line bg-surface/50 px-4 py-3 text-sm font-medium text-slate-200">
+                            Admin &amp; merchant dashboards</li>
+                        <li
+                            class="rounded-xl border border-line bg-surface/50 px-4 py-3 text-sm font-medium text-slate-200">
+                            POS + online store positioning</li>
+                        <li
+                            class="rounded-xl border border-line bg-surface/50 px-4 py-3 text-sm font-medium text-slate-200">
+                            Ready to brand &amp; deploy</li>
+                    </ul>
+                </div>
+                <div class="rounded-3xl border border-line bg-gradient-to-br from-indigo-950/40 to-surface p-8">
+                    <h3 class="font-display text-xl font-bold text-white">Roadmap story for campaigns</h3>
+                    <ul class="mt-6 space-y-4 text-slate-300">
+                        <li class="flex gap-3"><span class="text-indigo-400">◇</span> Deeper e-commerce &amp; social
+                            channel workflows</li>
+                        <li class="flex gap-3"><span class="text-indigo-400">◇</span> AI-assisted listings, support, and
+                            ops</li>
+                        <li class="flex gap-3"><span class="text-indigo-400">◇</span> Restaurant &amp; appointment
+                            modules over time</li>
+                        <li class="flex gap-3"><span class="text-indigo-400">◇</span> National or global multi-region
+                            hosting</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Audience -->
+        <section class="border-t border-line py-16">
+            <div class="mx-auto max-w-6xl px-4 text-center sm:px-6 lg:px-8">
+                <h2 class="font-display text-2xl font-bold text-white sm:text-3xl">Who this waitlist is for</h2>
+                <div class="mt-10 flex flex-wrap justify-center gap-4">
+                    <span
+                        class="rounded-full border border-line bg-surface/60 px-5 py-2 text-sm font-semibold text-slate-200">Developers</span>
+                    <span
+                        class="rounded-full border border-line bg-surface/60 px-5 py-2 text-sm font-semibold text-slate-200">Agencies</span>
+                    <span
+                        class="rounded-full border border-line bg-surface/60 px-5 py-2 text-sm font-semibold text-slate-200">Entrepreneurs</span>
+                    <span
+                        class="rounded-full border border-line bg-surface/60 px-5 py-2 text-sm font-semibold text-slate-200">Indie
+                        hackers</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Waitlist -->
+        <section id="waitlist"
+            class="scroll-mt-24 border-t border-line bg-gradient-to-b from-surface/40 to-ink pb-24 pt-20">
+            <div class="mx-auto max-w-lg px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="font-display text-3xl font-bold text-white">Join the waitlist</h2>
+                    <p class="mt-3 text-slate-400">Early access, launch pricing heads-up, and a short starter guide for
+                        selling the platform.</p>
+                </div>
+                <form class="mt-10 space-y-4" action="https://formspree.io/f/your-form-id" method="POST">
+                    <div>
+                        <label for="name" class="sr-only">Name</label>
+                        <input id="name" type="text" name="name" placeholder="Your name" required
+                            class="w-full rounded-xl border border-line bg-ink px-4 py-3.5 text-white placeholder:text-slate-500 focus:border-mint focus:outline-none focus:ring-1 focus:ring-mint">
+                    </div>
+                    <div>
+                        <label for="email" class="sr-only">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Work email" required
+                            class="w-full rounded-xl border border-line bg-ink px-4 py-3.5 text-white placeholder:text-slate-500 focus:border-mint focus:outline-none focus:ring-1 focus:ring-mint">
+                    </div>
+                    <div>
+                        <label for="country" class="sr-only">Country</label>
+                        <select id="country" name="country"
+                            class="w-full rounded-xl border border-line bg-ink px-4 py-3.5 text-white focus:border-mint focus:outline-none focus:ring-1 focus:ring-mint">
+                            <option value="">Country (optional)</option>
+                            <option>Bangladesh</option>
+                            <option>India</option>
+                            <option>Pakistan</option>
+                            <option>Nigeria</option>
+                            <option>Kenya</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <button type="submit"
+                        class="w-full rounded-xl bg-mint py-4 text-base font-bold text-ink shadow-lg shadow-mint/25 transition hover:bg-emerald-300 focus:outline-none focus:ring-2 focus:ring-mint focus:ring-offset-2 focus:ring-offset-ink">
+                        Get on the list
+                    </button>
+                    <p class="text-center text-xs text-slate-500">Replace the Formspree URL with your form ID before
+                        going live.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-line py-8 text-center text-sm text-slate-600">
+        <p>© ShopSuite · Waitlist landing · Not affiliated with Shopify Inc.</p>
+    </footer>
+
+</body>
+
+</html>
